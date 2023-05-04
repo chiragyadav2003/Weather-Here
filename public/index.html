@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Weather here is ................................</h1>
+    <div>User Location is : <br>
+        Latitude = <span id="latitude"></span>&deg
+        <br>
+        Longitude = <span id="longitude"></span>&deg
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <a href="/"><button>Check in</button></a>
+        <a href="/display.html"><button>Display</button></a>
+        <br>
+        <br>
+    </div>
+
+    <div id="map"></div>
+
+
+    <p>The weather here in the area <span id="area"></span> of the region
+        <span id="region"></span> is <span id="condition.text"></span>
+        with a temperature of <span id="temp_c"></span>&deg celsius
+        and the air quality in the area has
+        an AQI = <span id="aqi"></span> which has following concentration: <br>
+        CO concentration = <span id="co"></span> in μg/m3 <br>
+        NO concentration = <span id="no"></span> in μg/m3 <br>
+        pm2_5 concentration = <span id="pm2_5"></span> in μg/m3 <br>
+        pm10 concentration = <span id="pm10"></span> in μg/m3
+    </p>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+p {
+  background: Cyan;
+  width: 500px;
+  padding: 20px;
+}
+
+#map {
+  height: 600px;
+  width: 1000px;
+}
+
+div #map {
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
+}

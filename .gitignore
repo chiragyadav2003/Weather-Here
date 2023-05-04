@@ -1,0 +1,5 @@
+# write file name and directory to be ignored
+.env
+package-lock.json
+database.db
+node_modules/
